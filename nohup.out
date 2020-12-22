@@ -1,0 +1,24 @@
+Warning messages:
+1: replacing previous import ‘Matrix::cov2cor’ by ‘stats::cov2cor’ when loading ‘nonparGraphTesting’ 
+2: replacing previous import ‘Matrix::toeplitz’ by ‘stats::toeplitz’ when loading ‘nonparGraphTesting’ 
+3: replacing previous import ‘Matrix::update’ by ‘stats::update’ when loading ‘nonparGraphTesting’ 
+Loading required package: methods
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+The following object is masked from ‘package:base’:
+
+    union
+
+Loading required package: Matrix
+[1] "computing eigen1"
+[1] "computing eigen2"
+[1] "aligning..."
+[1] "performing nonpar test..."
+Warning message:
+In save(file = "res_12-9.Rdata") : nothing specified to be save()d
+[1] "finished."
