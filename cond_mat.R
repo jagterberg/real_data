@@ -137,7 +137,7 @@ res <- nonpar.test(Xnew,Yhat,nsims = 500)
 final_results <- list(res,Xnew,Xhat,Yhat,p,q,final_Q)
 names(final_results) <- c("nonpar.test","Xnew","xhat","yhat","p","q","final_Q")
 
-save(file = "res_12-9.Rdata")
+save(final_results,file = "res_12-22.Rdata")
 print("finished.")
 
 
